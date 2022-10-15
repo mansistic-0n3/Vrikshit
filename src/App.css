@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.App {
+font-family: 'Poppins';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.lr{
+padding-left: 6rem;
+padding-right: 6rem;
+}
+.bg{
+  background-color: #EEEEEE;
+  max-width: 100%;
+  padding-top:5rem;
+  padding-bottom: 5rem;
+}
+.smlHead{
+  font-weight:500;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #67AE77;
+}
+.bigHead{
+  font-weight:400;
+  font-size: 2.6em;
+  color: #016950;
+}
+.center{
+  text-align: center;
+}
+.space{
+  margin-top: 5rem;
+}
+.left{
+  padding-top: 4rem;
+  max-width: 50%;
+}
+.right{
+  padding-right: 4rem;
+  padding-top: 4rem;
+}
+
+.listing{
+  display: flex;
+  flex: content;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+.oneline{
+  padding-top: 0.6rem;
+  display: flex;}
+.leader{
+  width: 65%;
+  padding-left: 7rem;
+  align-content: center;
+}
+.images{
+  padding-left: 12rem;
+  display: contents;
+  padding-top: 5rem;
+  max-width: inherit;
+}
+.grl{
+  max-width:27% ;
+}
+.perk{
+  width: -webkit-fill-available;
+}
+.event{
+  font-size: 1.2em;
+}
+.conn{
+  display: flex;
+}
+.mem{
+  text-align: center;
+  padding-left: 1em;
+}
+.btn{
+  background-color: #E5FF46;
+  text-align: center;
+  font-weight: 400;
+  border: none;
+  padding:18px 38px;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+.box{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px){
+  .listing{
+    display: contents;
+  }
+  .oneline{
+    padding-left: 2rem;
+  }
+  .leader{
+    padding-left: 9rem;
+  }
+  .grl{
+    max-width: 50%;
+    padding-left: 12rem;
+  }
+  .right{
+    padding-right: 0px;
+    padding-left: 5rem;
+  }
+  .left{
+    max-width: 100%;
+  }
+  .mob{
+    padding:10px;
+  }
+  .conn{
+    display: block;
+  }
+  .mem{
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left{
+    max-width: 100%;
+  }
+  .leader{
+    padding-left: 5rem;
+  }
+  .mob{
+    padding: 30px;
+  }
+}
+
